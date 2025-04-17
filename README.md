@@ -15,7 +15,7 @@ appjail makejail \
     -o virtualnet=":<random> default" \
     -o nat
 appjail cmd jexec tahoe-lafs -U tahoe-lafs \
-    tahoe --help
+    .local/bin/tahoe --help
 ```
 
 ### Arguments
