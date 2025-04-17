@@ -11,6 +11,7 @@ CMD mkdir -p /tahoe
 CMD chown tahoe-lafs:tahoe-lafs /tahoe
 
 CMD --juser tahoe-lafs pip install --user tahoe-lafs
+CMD --juser tahoe-lafs rm -rf /tahoe/.cache /tahoe/.cargo
 
 PKG --remove rust
 PKG --clean
