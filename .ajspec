@@ -1,0 +1,17 @@
+tags+: 13.5
+13.5.arch: amd64
+13.5.name: "tahoe-lafs"
+13.5.timestamp.amd64: 1744874496
+13.5.sum.amd64: 16d600bfd07bb332b10b13465ede70a0e9d5435688616a29b7d4715c7070ec93
+13.5.size.amd64: 507221779
+13.5.source.amd64: "https://images.all101bsd.download/tahoe-lafs/13.5-amd64-image.appjail"
+13.5.source.amd64+: "http://appjail.hpc.at/tahoe-lafs/13.5-amd64-image.appjail"
+tags+: 14.2
+14.2.arch: amd64
+14.2.name: "tahoe-lafs"
+14.2.timestamp.amd64: 1744875793
+14.2.sum.amd64: e335874bd91770919b9a187ff6616ba9ee324c2d916468b1e13925bd3cf72761
+14.2.size.amd64: 520200411
+14.2.source.amd64: "https://images.all101bsd.download/tahoe-lafs/14.2-amd64-image.appjail"
+14.2.source.amd64+: "http://appjail.hpc.at/tahoe-lafs/14.2-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
