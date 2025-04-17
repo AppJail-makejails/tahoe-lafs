@@ -1,7 +1,7 @@
 INCLUDE options/options.makejail
 
 ARG tahoe_tag=%%TAG1%%
-ARG tahoe_ajspec=gh+AppJail-makejails/tahoe
+ARG tahoe_ajspec=gh+AppJail-makejails/tahoe-lafs
 
 FROM --entrypoint "${tahoe_ajspec}" tahoe:${tahoe_tag}
 
