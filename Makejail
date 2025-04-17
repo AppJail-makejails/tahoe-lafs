@@ -7,8 +7,3 @@ ARG tahoe_ajspec=gh+AppJail-makejails/tahoe-lafs
 FROM --entrypoint "${tahoe_ajspec}" tahoe:${tahoe_tag}
 
 COPY healthcheckers
-
-RAW if appjail cmd jexec "${APPJAIL_JAILNAME}" [ ! -f /tahoe/.profile ]; then
-        COPY files/profile /tahoe/.profile
-        CMD chown tahoe-lafs:tahoe-lafs /tahoe/.profile
-RAW fi
