@@ -12,6 +12,6 @@ CMD chown tahoe-lafs:tahoe-lafs /tahoe
 
 CMD --juser tahoe-lafs pip install --user tahoe-lafs
 
-PKG --uninstall rust
+PKG --remove rust
 PKG --clean
 PKG --autoremove
