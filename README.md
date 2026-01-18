@@ -21,7 +21,7 @@ appjail cmd jexec tahoe-lafs \
 ### Arguments
 
 * `tahoe_ajspec` (default: `gh+AppJail-makejails/tahoe-lafs`): Entry point where the `appjail-ajspec(5)` file is located.
-* `tahoe_tag` (default: `13.5`): see [#tags](#tags).
+* `tahoe_tag` (default: `14.3`): see [#tags](#tags).
 
 ### Healthcheckers
 
@@ -40,5 +40,5 @@ appjail cmd jexec tahoe-lafs \
 
 | Tag           | Arch    | Version            | Type   |
 | ------------- | --------| ------------------ | ------ |
-| `13.5`    | `amd64` | `13.5-RELEASE` | `thin` |
 | `14.3`    | `amd64` | `14.3-RELEASE` | `thin` |
+| `15`    | `amd64` | `15` | `thin` |
