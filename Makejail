@@ -1,9 +1,5 @@
-INCLUDE options/options.makejail
-INCLUDE options/healthcheckers.makejail
+ARG tahoe-lafs_from=ghcr.io/appjail-makejails/tahoe-lafs
+ARG tahoe-lafs_tag=latest
 
-ARG tahoe_tag=14.3
-ARG tahoe_ajspec=gh+AppJail-makejails/tahoe-lafs
-
-FROM --entrypoint "${tahoe_ajspec}" tahoe:${tahoe_tag}
-
-COPY healthcheckers
+OPTION overwrite=force
+OPTION from=${tahoe-lafs_from}:${tahoe-lafs_tag}
