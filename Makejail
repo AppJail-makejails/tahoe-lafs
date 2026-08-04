@@ -1,5 +1,6 @@
 ARG tahoe-lafs_from=ghcr.io/appjail-makejails/tahoe-lafs
 ARG tahoe-lafs_tag=latest
 
+OPTION container=boot
 OPTION overwrite=force
 OPTION from=${tahoe-lafs_from}:${tahoe-lafs_tag}
