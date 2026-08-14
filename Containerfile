@@ -15,7 +15,7 @@ LABEL org.opencontainers.image.title="tahoe-lafs" \
 RUN set -xe; \
     \
     pkg update; \
-    pkg install -U py${PYVER}-tahoe-lafs; \
+    pkg install py${PYVER}-tahoe-lafs; \
     \
     if [ -z "${NO_PKGCLEAN}" ]; then \
         pkg clean -a; \
